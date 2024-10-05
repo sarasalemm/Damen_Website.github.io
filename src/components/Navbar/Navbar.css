@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+ 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 30px;
+    box-shadow: 0 1px 2px -2px black;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+.logo {
+    width: 10px;
+    height: 90px;
+}
+.navlogo{
+    width:20px;
+    height: 90px;
+}
+.nav-menu {
+    color: black;
+    font-size: 18px;
+    
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 80px;
+    margin-left: -100px;
+}
+
+.nav-menu li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-menu li.active {
+    font-weight: bold; 
+    color: rgba(87, 87, 158, 0.689); 
+}
+
+.nav-menu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: black;
+    display: none;
+    position: absolute;
+    bottom: -10px;
+}
+
+.nav-menu li:hover hr {
+    display: block;
+}
+
+.search-cart-profile{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    gap: 40px;
+}
+.cart-count{
+    width:20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -34px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+
+
+}
+.cart-loaded{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,32 @@
+
+.loading-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 250px; }
+  
+  .progress-bar-container {
+    width: 20%; 
+    background-color: #e0e0e0; 
+    border-radius: 10px;
+    height: 15px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #2e3678; 
+    border-radius: 10px;
+    transition: width 0.1s ease-in-out; 
+  }
+  
