@@ -1,4 +1,6 @@
 {
+  "homepage":"https://sarasalemm.github.io/damen-react",
+
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -34,7 +36,10 @@
     "start:web": "react-scripts start",
     "build:web": "react-scripts build",
     "start:native": "react-native run-android",
-    "build:native": "react-native build"
+    "build:native": "react-native build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
