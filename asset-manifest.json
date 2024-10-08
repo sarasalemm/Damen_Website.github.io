@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/damen-react/static/css/main.2eb53971.css",
-    "main.js": "/damen-react/static/js/main.732bd5a3.js",
+    "main.js": "/damen-react/static/js/main.1ea47a2c.js",
     "static/media/product2img.png": "/damen-react/static/media/product2img.c935e1dc10b6be28e3ef.png",
     "static/media/productimg.png": "/damen-react/static/media/productimg.f45de8b213923ba3170f.png",
     "index.html": "/damen-react/index.html",
     "main.2eb53971.css.map": "/damen-react/static/css/main.2eb53971.css.map",
-    "main.732bd5a3.js.map": "/damen-react/static/js/main.732bd5a3.js.map"
+    "main.1ea47a2c.js.map": "/damen-react/static/js/main.1ea47a2c.js.map"
   },
   "entrypoints": [
     "static/css/main.2eb53971.css",
-    "static/js/main.732bd5a3.js"
+    "static/js/main.1ea47a2c.js"
   ]
 }
