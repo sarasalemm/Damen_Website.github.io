@@ -36,7 +36,7 @@
     "start:native": "react-native run-android",
     "build:native": "react-native build",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -59,7 +59,5 @@
   "devDependencies": {
     "@capacitor/cli": "^6.1.2"
   },
-
-  "homepage": {"https://sarasalemm.github.io/sarasalemm.github.io"}
-
+  "homepage": "https://sarasalemm.github.io/sarasalemm.github.io"
 }
